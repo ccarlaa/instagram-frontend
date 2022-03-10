@@ -1,284 +1,110 @@
 @media (max-width: 600px){
 
-/*-----------BARRA DO TOPO--------------- */
+    /*-----------BARRA DO TOPO--------------- */
 
-.barratopo {
-    width: 100%;
-    height: 54px;
-    background-color: white;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    position: fixed;
-    z-index: 2;
-}
+    .barratopo {
+        width: 100%;
+        height: 54px;
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        position: fixed;
+        z-index: 2;
+    }
 
-.centro {
-    width: 935px;
-    height: 100%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-}
+    .centro {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
 
-.espaçobarratopo {
-    width: 100vw;
-    height: 38px;
-    background-color: white;
-}
+    .espaçobarratopo {
+        width: 100vw;
+        height: 38px;
+        background-color: white;
+    }
 
-
-.instagram {
-    height: 100%;
-    width: 140px;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    display: none;
-}
+    .logo {
+        padding-left: 15px;
+    }
 
 
-.linhavertical {
-    width: 1px;
-    height: 25px;
-    background-color: #DBDBDB;
-    display: none;
-    
-}
-
-.imginstagram {
-    height: 29px;
-    width: 103px;
-    margin-left: 9px;
-}
-
-.pesquisa {
-    height: 100;
-    width: 593px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-weight: 400;
-    display: none;
-}
-
-.icones {
-    height: 100%;
-    display: flex;
-    justify-content: flex-end;
-}
-
-.direct {
-    width: 42.67px;
-    height: 100;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    display: none;
-}
-
-.iconeextra {
-    display: block;
-    width: 42.67px;
-    height: 100;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-right: 10px;
-}
+    .instagram {
+        display: none;
+    }
 
 
-/*----------BACKGROUND-----------*/
+    .linhavertical {
+        display: none;
+        
+    }
 
-.conteudo {
-    background-color: #E5E5E5;
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-}
+    .pesquisa {
+        display: none;
+    }
 
-/*------------FEED-------------*/
+    .icones {
+        height: 100%;
+        display: flex;
+        justify-content: flex-end;
+    }
 
+    .direct {
+        display: none;
+    }
 
-.feed {
-    background-color: #E5E5E5;
-    width: 935px;
-    height: 100vh;
-    padding-top: 34px;
-    display: flex;
-    justify-content: center;
-}
+    .iconeextra {
+        display: block;
+        width: 42.67px;
+        height: 100;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-right: 10px;
+    }
 
+    /*---------------STORES---------------*/
 
+    .stores {
+        background-color: #E5E5E5;
 
-/*---------------STORES---------------*/
+    }
 
+    .seta {
+        display: none;
+    }
 
-.stores {
-    height: 118px;
-    width: 100%;
-    overflow-x: hidden;
-    overflow-y: hidden;
-    display: inline-flex;
-    border-radius: 3px;
-    border: 1px solid #E5E5E5;
-    position: relative;
-    background-color: #E5E5E5;
-    padding-left: 18px;
-}
+    .espaçostores{
+        background-color: #E5E5E5;
+        height: 0;
+        width: 0;
+    }
 
-.seta {
-    position: absolute;
-    padding-left: 95%;
-    padding-top: 46px;
-    display: none;
-}
+    /*------------SIDEBAR-------------*/
 
+    .extra {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        display: none;
+    }
 
-.umstore {
-    height: 124px; /*auto?*/
-    width: 100vw;
-    padding-right: 20px;
-    background-image: url(./imagens/storesbackground.png);
-    background-repeat: no-repeat;
-    background-size: 66px;
-    background-position: top 14.5px right 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    /*-------------BOTTOMBAR----------------*/
 
-}
-
-
-.espaçostores{
-    background-color: #E5E5E5;
-    height: 0;
-    width: 0;
-}
-
-
-/*-----------POSTS--------------*/
-
-.posts {
-    background-color: white;
-    height: 749px;
-    width: 100%;
-    border-radius: 3px;
-    border: 1px solid #DBDBDB;
-}
-
-.foto {
-    width: 170px;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    padding-left: 7px;
-    font-weight: 400;
-}
-
-
-.verificado {
-    width: 10px;
-    padding-left: 5px;
-    padding-top: 1px;
-}
-
-
-.dots {
-    height: 100%;
-    width: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.imgpost {
-    width: 100%;
-    height: 612px;
-    background-color: black;
-    display: flex;
-    align-items: center;
-}
-
-.like {
-    width: 100%;
-    height: 38px;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-}
-
-.iconesrodape {
-    display: flex;
-    align-items: center;
-    width: 300px;
-    height: 100%;
-}
-
-.esquerdarodape {
-    width: 35.69px;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-left: 10px;
-}
-
-
-.save {
-    width: 312px;
-    display: flex;
-    justify-content: flex-end;
-    padding-right: 10px;
-}
-
-
-.curtidas {
-    width: 100;
-    height: 36px;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    padding-left: 15px;
-
-}
-
-.ncurtidas {
-    padding-left: 5px;
-    font-weight: 300;
-    font-size: 14px;
-}
-
-.espaçoposts {
-    width: 100vw;
-    height: 24px;
-}
-
-/*------------SIDEBAR-------------*/
-
-.extra {
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    display: none;
-}
-
-
-/*-------------BOTTOMBAR----------------*/
-
-.bottombar {
-    width: 100%;
-    height: 54px;
-    background-color: white;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    position: fixed;
-    bottom: 0;
-}
+    .bottombar {
+        width: 100%;
+        height: 54px;
+        background-color: white;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        position: fixed;
+        bottom: 0;
+    }
 
 }
