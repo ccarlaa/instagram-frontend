@@ -334,13 +334,25 @@ ion-icon {
 
 /*------------SIDEBAR-------------*/
 
+.paginasidebar {
+    width: 100vw;
+    height: auto;
+    position: fixed;
+    top: 74px;
+    display: flex;
+    justify-content: center;
+}
+
+.centralizar {
+    width: 935px;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
 
 .sidebar{
     height: 500px;
     width: 293px;
-    position: fixed;
-    top: 88px;
-    right: 290px;
 }
 
 .storedestaque {
