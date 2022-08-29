@@ -2,7 +2,7 @@
 
 <p>Reprodução do front-end do aplicativo Instagram</p>
 
-[Instagram front-end](https://instagram-frontend-eight.vercel.app/)
+[Instagram front-end](https://ccarlaa.github.io/instagram-frontend/)
 
 ## 📝 Sobre
 
@@ -19,7 +19,7 @@ Você pode [acessar o código fonte do projeto](https://github.com/ccarlaa/insta
 
 Após baixar o projeto, você pode abri-lo com o Visual Studio Code. Para isso, na tela de launcher clique em:
 
-- File -> Open Folder
+- File > Open Folder
 - Procure o local onde o projeto está e o selecione (Caso o projeto seja baixado via zip, é necessário extraí-lo antes de procurá-lo)
 - Por fim clique em Abrir
 
